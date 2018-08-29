@@ -3,7 +3,7 @@
 	<div class="contenedor">
 			<h2>Panel de Control</h2>
 			<a href="nuevo.php" class="btn">Nuevo Post</a>
-			<a href="cerrar.php" class="btn">Cerrar Sesion</a>
+			<a href="cerrar.php" onclick="alert('Adios señor stark');" class="btn">Cerrar Sesion</a>
 			<?php foreach ($posts as $post): ?>
 				<div class="post">
 					<article>
