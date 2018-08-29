@@ -17,3 +17,4 @@ function valida(){
 		window.alert("Los campos usuario y contraseña no pueden estar vacios");
 	}
 }
+
