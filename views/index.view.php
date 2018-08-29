@@ -19,5 +19,6 @@
 		
 		<?php require'paginacion.php'; ?>
 	</div>
+	
 
 <?php require 'footer.php'; ?>
