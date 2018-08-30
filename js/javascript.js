@@ -32,18 +32,16 @@ function valida(){
 
     }
 
-//efecto Parallax
+
+
+//Parallax
 $(document).ready(function(){
- 
-    $(window).scroll(function(){ //mencionamos el evento
+    $(window).scroll(function(){    //mencionamos el evento
         var barra = $(window).scrollTop(); //asignamos a una variable la posicion del scroll
-        var posicion =  (barra * 0.10); // al mover el scroll lo multiplicaremos
-        
+        var posicion = barra * 0.10;  // al mover el scroll lo multiplicaremos
+
         $('body').css({
             'background-position': '0 -' + posicion + 'px' // el primer cero equivale a la posicion horizontal por lo que, lo que sigue es el valor de la variable posicion(movimiento vertical)
         });
- 
     });
- 
 });
-
