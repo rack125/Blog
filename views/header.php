@@ -10,10 +10,11 @@
 	<title>Blog</title>
 </head>
 <body>
+	<div id="particles-js"></div>
 	<header>
 		<div class="contenedor">
 			<div class="logo izquierda">
-				<p><img src="imagenes/zeldalogo.png" alt="" class="imagenlogo"><a href="<?php echo RUTA; ?>">Midgard Games</a></p>
+				<p><img src="<?php echo RUTA; ?>/imagenes/zeldalogo.png" alt="" class="imagenlogo"><a href="<?php echo RUTA; ?>">Midgard Games</a></p>
 			</div>
 
 			<div class="derecha">
@@ -28,4 +29,5 @@
 			</div>
 
 		</div>
+
 	</header>

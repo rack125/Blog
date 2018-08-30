@@ -9,8 +9,18 @@
 body {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	background: #ebebeb;
+	background: url('https://i.imgur.com/hzkrYCQ.jpg') ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed   /*//agregado particulas*/
 }
+
+/*#particles-js{
+	width: 100%;
+	height: 300px;
+}*/
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald", Arial, Sans-serif;
@@ -30,6 +40,7 @@ a:hover {
 	max-width: 1000px;
 	width: 90%;
 	margin: auto;
+	position: relative;
 }
 
 .izquierda {
@@ -45,7 +56,9 @@ a:hover {
 header {
 	color:#fff;
 	margin-bottom: 30px;
-	background: #07653B;
+	background: #5f5f5f;
+	position: relative;
+	opacity: 0.8;
 }
 
 header .contenedor {
@@ -136,10 +149,12 @@ header .menu ul li a .icono {
 /* --- Post --- */
 .post {
 	width: 100%;
-	background: #fff;
+	background: #9395A1;
 	box-shadow: 0px 0px 5px rgba(0,0,0, .5);
 	margin-bottom: 30px;
 	padding: 30px;
+	border-radius: 10px;
+	position: relative;
 }
 
 .post article .titulo {
@@ -167,6 +182,7 @@ header .menu ul li a .icono {
 .post article .thumb img {
 	vertical-align: top;
 	width: 100%;
+	border-radius: 10px;
 }
 
 .post article .extracto {
@@ -199,8 +215,10 @@ header .menu ul li a .icono {
 
 /* --- Footer --- */
 footer {
-	background: #07653B;
+	background: #5f5f5f;
 	color: #fff;
+	position: relative;
+	opacity: 0.8;
 }
 
 footer .copyright {
@@ -213,6 +231,7 @@ footer .copyright {
 
 .paginacion {
 	margin-bottom: 30px;
+	position: relative;
 }
 
 .paginacion ul {
@@ -306,4 +325,11 @@ footer .copyright {
 .imagenlogo{
 	width: 100px;
 	float: left;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed; /*// con esto hacemos que las particulas se queden de fondo*/
+  /*background: rgba(0,0,0,.8);*/
 }

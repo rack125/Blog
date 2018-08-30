@@ -1,6 +1,7 @@
 <?php require 'header.php'; ?>
-
+	
 	<div class="contenedor">
+		<!-- <div id="particles-js"></div> -->
 			<?php foreach ($posts as $post): ?>
 				<div class="post">
 					<article>

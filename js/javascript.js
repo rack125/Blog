@@ -28,13 +28,13 @@ function valida(){
     	imagen = document.getElementById("imagen").value;
 
     	if (titulo == "" || extracto == "" || texto == "" || imagen == "") {
-    		alert("Todos los campos son obligatorios");
+    		window.alert("Todos los campos son obligatorios");
     		return false;
     	}else if (titulo.length > 30) {
-    		alert("El titulo es muy largo");
+    		window.alert("El titulo es muy largo");
     		return false;
     	}else if (extracto.length > 50) {
-    		alert("El extracto es muy largo");
+    		window.alert("El extracto es muy largo");
     		return false;
     	}
 

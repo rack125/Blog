@@ -15,6 +15,6 @@
 		</article>
 	</div>
 </div>
-<script src="../js/javascript.js"></script>
+
 
 <?php require 'footer.php'; ?>
