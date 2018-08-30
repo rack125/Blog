@@ -1,13 +1,4 @@
 
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 //validacion de usuario/contraseña correctas
 function valida(){
 	var usuario = document.getElementById('usuario');
@@ -15,6 +6,7 @@ function valida(){
 
 	if((usuario.value == "")||(pass.value == "")){
 		window.alert("Los campos usuario y contraseña no pueden estar vacios");
+        return false;
 	}
 }
 
@@ -39,3 +31,19 @@ function valida(){
     	}
 
     }
+
+//efecto Parallax
+$(document).ready(function(){
+ 
+    $(window).scroll(function(){ //mencionamos el evento
+        var barra = $(window).scrollTop(); //asignamos a una variable la posicion del scroll
+        var posicion =  (barra * 0.10); // al mover el scroll lo multiplicaremos
+        
+        $('body').css({
+            'background-position': '0 -' + posicion + 'px' // el primer cero equivale a la posicion horizontal por lo que, lo que sigue es el valor de la variable posicion(movimiento vertical)
+        });
+ 
+    });
+ 
+});
+

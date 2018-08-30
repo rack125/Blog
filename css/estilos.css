@@ -9,11 +9,12 @@
 body {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	background: url('https://i.imgur.com/hzkrYCQ.jpg') ;
+	background: url('https://i.imgur.com/hzkrYCQ.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	background-attachment: fixed   /*//agregado particulas*/
 }
 
