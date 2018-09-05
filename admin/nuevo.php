@@ -36,6 +36,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {    //con esto estamos comprobando si
 }
 
 
-require '../views/nuevo.view.php';
+// require '../views/nuevo.view.php';
 
  ?>

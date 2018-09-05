@@ -10,16 +10,16 @@ function valida(){
 	}
 }
 
-//validacion nuevo post
+//validacion modificar
 
     function validar() {
-    	var titulo, extracto, texto, imagen;
+    	var titulo, extracto, texto;
     	titulo = document.getElementById("titulo").value;
     	extracto = document.getElementById("extracto").value;
     	texto = document.getElementById("texto").value;
-    	imagen = document.getElementById("imagen").value;
+    	
 
-    	if (titulo == "" || extracto == "" || texto == "" || imagen == "") {
+    	if (titulo == "" || extracto == "" || texto == "") {
     		window.alert("Todos los campos son obligatorios");
     		return false;
     	}else if (titulo.length > 30) {
@@ -29,6 +29,30 @@ function valida(){
     		window.alert("El extracto es muy largo");
     		return false;
     	}
+
+    }
+
+//validacion nuevo post
+
+//validacion nuevo post
+
+    function validarnuevo() {
+        var titulo, extracto, texto;
+        titulo = document.getElementById("titulo").value;
+        extracto = document.getElementById("extracto").value;
+        texto = document.getElementById("texto").value;
+        
+
+        if (titulo == "" || extracto == "" || texto == "" || thumb == "") {
+            window.alert("Todos los campos son obligatorios");
+            return false;
+        }else if (titulo.length > 30) {
+            window.alert("El titulo es muy largo");
+            return false;
+        }else if (extracto.length > 50) {
+            window.alert("El extracto es muy largo");
+            return false;
+        }
 
     }
 
@@ -45,3 +69,25 @@ $(document).ready(function(){
         });
     });
 });
+
+//busqueda
+
+// $(function(){
+
+// });
+
+// function buscar_datos(consulta){
+//     $.ajax({
+//         url: 'buscar.php',
+//         type: 'POST',
+//         dataType: 'php',
+//         data: {consulta: consulta},
+//     })
+//     .done(function(respuesta){
+//         $("#datos").php(respuesta);
+//     })
+//     .fail(function(){
+//         console.log("error");
+//     })
+// }
+

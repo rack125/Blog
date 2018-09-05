@@ -10,7 +10,7 @@
 				<textarea name="texto" id="texto" placeholder="Texto del Articulo"></textarea>
 				<input type="file" id="imagen" name="thumb">
 
-				<input type="submit" value="Crear Articulo">
+				<input type="submit" id="" value="Crear Articulo">
 			</form>
 		</article>
 	</div>

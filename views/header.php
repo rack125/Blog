@@ -3,11 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php echo RUTA; ?>/cssb/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo RUTA; ?>/css/estilos.css">
+	<script src="<?php echo RUTA; ?>/js/jquery-3.3.1.min.js"></script>
+<!-- 	<link rel="stylesheet" href="<?php echo RUTA; ?>/admin/adminArticulos.php"> -->
 	<title>Blog</title>
 </head>
 <body>
@@ -28,7 +30,5 @@
 					</ul>
 				</nav>
 			</div>
-
 		</div>
-
 	</header>
