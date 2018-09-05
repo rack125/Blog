@@ -9,10 +9,10 @@
 				<input readonly="readonly" type="text" id="titulo" name="titulo" value="<?php echo $post['titulo']; ?>">
 				<input readonly="readonly" type="text" id="extracto" name="extracto" value="<?php echo $post['extracto']; ?>">
 				<textarea readonly="readonly" id="texto" name="texto"><?php echo $post['texto']; ?></textarea>
-				<input type="file" id="thumb" name="thumb">
+				<input disabled type="file" id="thumb" name="thumb">
 				<input type="hidden" name="thumb-guardada" value="<?php echo $post['thumb']; ?>">  <!--el input de tipo hidden no se muestra en pantalla y guardara datos temporalmente-->
 
-				<input onclick="validar();" type="submit" id="botonEli" name="botonEli" value="Eliminar Articulo">
+				<input type="submit" id="botonEli" name="botonEli" value="Eliminar Articulo">
 			</form>
 		</article>
 	</div>
